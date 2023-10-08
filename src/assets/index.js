@@ -37,6 +37,7 @@ import aws from "./tech/aws.png";
 import wordpress from "./tech/aws.png";
 import python from "./tech/python.png";
 import cplus from "./tech/cplus.png"
+import live from "./live.png"
 
 export {
   logo,
@@ -74,5 +75,6 @@ export {
   wordpress,
   python,
   canva,
-  aws
+  aws,
+  live
 };

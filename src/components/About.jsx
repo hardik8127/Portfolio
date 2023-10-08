@@ -35,7 +35,7 @@ const About = () => {
     < >
       <div className="flex justify-center">
       <motion.div variants={textVariant()} >
-        <p className={styles.sectionSubText} flex justify-center> Introduction</p>
+        <p className={`${styles.sectionSubText} flex justify-center`} > Introduction</p>
         <h2 className={styles.sectionHeadText}> Overview</h2>
       </motion.div>
       </div>
