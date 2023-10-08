@@ -32,14 +32,17 @@ const ServiceCard = ({ index, title, icon }) => {
 
 const About = () => {
   return (
-    <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}> Introduction</p>
+    < >
+      <div className="flex justify-center">
+      <motion.div variants={textVariant()} >
+        <p className={styles.sectionSubText} flex justify-center> Introduction</p>
         <h2 className={styles.sectionHeadText}> Overview</h2>
       </motion.div>
+      </div>
+      <div className="flex justify-center">
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px] max-w-4xl leading-[30px] text-justify"
       >
         Welcome to my portfolio! I'm a passionate front-end developer with a
         strong interest in DevOps practices. My skills span a range of
@@ -53,12 +56,14 @@ const About = () => {
         create exceptional web experiences and optimize development processes.
         Let's collaborate to bring your projects to life!
       </motion.p>
+      </div>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
+      
     </>
   );
 };

@@ -30,6 +30,13 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import devops from "./devops.png";
+import Bhel from "./company/Bhel.png";
+import securedapp from "./company/securedapp.png";
+import canva from "./tech/canva.png";
+import aws from "./tech/aws.png";
+import wordpress from "./tech/aws.png";
+import python from "./tech/python.png";
+import cplus from "./tech/cplus.png"
 
 export {
   logo,
@@ -60,5 +67,12 @@ export {
   carrent,
   jobit,
   tripguide,
-  devops
+  devops,
+  Bhel,
+  securedapp,
+  cplus,
+  wordpress,
+  python,
+  canva,
+  aws
 };

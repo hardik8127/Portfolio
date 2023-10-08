@@ -24,7 +24,14 @@ import {
   jobit,
   tripguide,
   threejs,
-  devops
+  devops,
+  Bhel,
+  securedapp,
+  wordpress,
+  cplus,
+  canva,
+  python,
+  aws,
 } from "../assets";
 
 export const navLinks = [
@@ -55,7 +62,6 @@ const services = [
     title: "Devops",
     icon: devops,
   },
- 
 ];
 
 const technologies = [
@@ -111,59 +117,43 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "cplus",
+    icon: cplus,
+  },
+  {
+    name: "python",
+    icon: python,
+  },
+ 
+  
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "SDE Intern (Frontend)",
+    company_name: "SecureDapp",
+    icon: securedapp,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Aug 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Actively contributing to SecureDapp, a pioneering blockchain audit firm.",
+      "Dedication to enhancing smart contract security and advancing web3 projects.",
+      "Leading the development of frontend solutions using React.js and various technologies.",
+      "Focus on optimizing user experiences and interface interactions",
+      "Key involvement in significant projects like the SecureDapp website and Securepad.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Summer Intern",
+    company_name: "BHEL (Bharat Heavy Electricals Limited)",
+    icon: Bhel,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Engineered the Gate Pass Management System at BHEL, resulting in a 30% increase in efficiency through streamlined procedures.",
+      "Successfully revamped visitor access, reducing check-in time by 40% to enhance visitor experiences.",
+      "Optimized the check-in and check-out processes, leading to a 25% reduction in visitor wait times and garnering positive feedback.",
     ],
   },
 ];
